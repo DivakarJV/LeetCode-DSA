@@ -43,6 +43,7 @@ public class BIT {
             res += rawIndex * _tree1[index] - _tree2[index];
             index -= _lowbit(index);
         }
+        
         return res;
     }
 }
